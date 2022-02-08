@@ -38,10 +38,6 @@ public class University {
         return this;
     }
 
-    public University build() {
-        return this;
-    }
-
     public String getId() {
         return id;
     }

@@ -30,10 +30,6 @@ public class Student {
         return this;
     }
 
-    public Student build() {
-        return this;
-    }
-
     public String getFullName() {
         return fullName;
     }
