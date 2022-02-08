@@ -1,7 +1,7 @@
 package ru.voidlol.studentsinfo.profile;
 
 public enum StudyProfile {
-    COMPUTER_SCIENCE(""), MEDICINE("Медицина"), LAYWER("Юрист"), ECONOMIST("Экономист");
+    COMPUTER_SCIENCE("Информационные технологии"), MEDICINE("Медицина"), LAYWER("Юрист"), ECONOMIST("Экономист");
 
     private String ruProfileName;
 
