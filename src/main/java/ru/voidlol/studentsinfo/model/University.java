@@ -1,13 +1,23 @@
 package ru.voidlol.studentsinfo.model;
 
+import com.google.gson.annotations.SerializedName;
 import ru.voidlol.studentsinfo.enums.StudyProfile;
 
 public class University {
 
+    @SerializedName("ID")
     private String id;
+
+    @SerializedName("Full Name")
     private String fullName;
+
+    @SerializedName("Short Name")
     private String shortName;
+
+    @SerializedName("Year of Foundation")
     private int yearOfFoundation;
+
+    @SerializedName("Main Profile")
     private StudyProfile mainProfile;
 
     public University() {

@@ -1,10 +1,19 @@
 package ru.voidlol.studentsinfo.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Student {
 
+    @SerializedName("University ID")
     private String universityId;
+
+    @SerializedName("Full Name")
     private String fullName;
+
+    @SerializedName("Current Course")
     private int currentCourseNumber;
+
+    @SerializedName("Average Exam Score")
     float avgExamScore;
 
     public Student() {
