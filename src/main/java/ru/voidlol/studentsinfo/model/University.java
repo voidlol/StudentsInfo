@@ -1,6 +1,6 @@
 package ru.voidlol.studentsinfo.model;
 
-import ru.voidlol.studentsinfo.profile.StudyProfile;
+import ru.voidlol.studentsinfo.enums.StudyProfile;
 
 public class University {
 

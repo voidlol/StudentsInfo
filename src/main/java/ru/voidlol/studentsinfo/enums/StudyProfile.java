@@ -1,4 +1,4 @@
-package ru.voidlol.studentsinfo.profile;
+package ru.voidlol.studentsinfo.enums;
 
 public enum StudyProfile {
     COMPUTER_SCIENCE("Информационные технологии"), MEDICINE("Медицина"),

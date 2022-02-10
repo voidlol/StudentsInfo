@@ -5,7 +5,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import ru.voidlol.studentsinfo.model.Student;
 import ru.voidlol.studentsinfo.model.University;
-import ru.voidlol.studentsinfo.profile.StudyProfile;
+import ru.voidlol.studentsinfo.enums.StudyProfile;
 
 import java.io.FileInputStream;
 import java.io.IOException;
